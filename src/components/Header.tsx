@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container px-4 mx-auto">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center gap-2">
-            <Heart className="w-6 h-6 text-primary" />
+            <Heart className="w-6 h-6 text-gray-800" />
             <span className="text-xl font-bold text-foreground">Community Support</span>
           </div>
           
