@@ -11,26 +11,7 @@ const Header = () => {
             <span className="text-xl font-bold text-foreground">Community Support</span>
           </div>
           
-          <nav className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-foreground hover:text-primary transition-smooth font-medium">
-              About
-            </a>
-            <a href="#resources" className="text-foreground hover:text-primary transition-smooth font-medium">
-              Resources
-            </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-smooth font-medium">
-              Contact
-            </a>
-          </nav>
-          
-          <div className="flex items-center gap-4">
-            <Button className="hidden md:inline-flex bg-hero-gradient hover:opacity-90 transition-smooth">
-              Get Started
-            </Button>
-            <Button variant="ghost" size="icon" className="md:hidden">
-              <Menu className="w-5 h-5" />
-            </Button>
-          </div>
+          <div className="flex-1" />
         </div>
       </div>
     </header>
